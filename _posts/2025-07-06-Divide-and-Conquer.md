@@ -9,6 +9,7 @@ date: 2025-07-06
 last_modified_at: 2025-07-06
 toc: true
 toc_sticky: true
+math: true
 ---
 
 # Divide and Conquer
