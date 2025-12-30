@@ -3,6 +3,7 @@ title: Divide and Conquer
 date: 2025-12-30 12:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [Binary Search, Merge Sort, Quick Sort]
+math: true
 ---
 
 # Divide and Conquer
@@ -84,15 +85,15 @@ Let x = 18
 
 10 12 13 14 18 20 25 27 30 35 40
 
-               S[mid] = 20
+-> S[mid] = 20
 
 10 12 13 14 18
 
-    S[mid] = 13
+-> S[mid] = 13
 
 14 18
 
-S[mid] = 14
+-> S[mid] = 14
 
 S[mid] = 18 ⇒ True
 
