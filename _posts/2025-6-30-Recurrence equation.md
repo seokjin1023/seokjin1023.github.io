@@ -4,6 +4,7 @@ date: 2025-6-30 10:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [Recurrence, math, Fibonacci, Merge Sort]
 math: true
+description: Dynamic Programming을 위한 기본적인 점화식
 ---
 
 # Recurrence(s) equation

@@ -4,6 +4,7 @@ date: 2025-6-30 11:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [CMM, Floyd-Warshall]
 math: true
+description: Dynamic Programming의 원리 및 특징, 예시들을 통한 design 및 analysis
 ---
 
 # Dynamic Programming

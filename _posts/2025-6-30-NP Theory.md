@@ -4,6 +4,7 @@ date: 2025-6-30 16:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [P, NP, NP-Complete, NP-Hard]
 math: true
+description: 문제의 복잡도를 통한 분류, P와 NP의 구분, NP-Complete와 NP-Hard의 차이
 ---
 
 # NP Theory

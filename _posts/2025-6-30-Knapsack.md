@@ -4,6 +4,7 @@ date: 2025-6-30 14:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [Optimization, 0/1 knapsack]
 math: true
+description: Knapsack이라는 유명 문제 중 0/1 knapsack이라는 조합 최적화 문제에 대한 각 방법론의 복잡도 계산
 ---
 
 # Knapsack

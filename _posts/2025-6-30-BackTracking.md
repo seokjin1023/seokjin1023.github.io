@@ -4,6 +4,7 @@ date: 2025-6-30 13:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [N-Queens, Sum of subsets, Graph Coloring, Hamiltonian Circuits]
 math: true
+description: BackTracking의 원리 및 특징, 예시들을 통한 design 및 analysis
 ---
 # BackTracking
 
