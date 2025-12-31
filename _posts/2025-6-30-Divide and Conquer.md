@@ -1,6 +1,6 @@
 ---
 title: Divide and Conquer
-date: 2025-12-30 12:00:00 +0900
+date: 2025-6-30 9:00:00 +0900
 categories: [소프트웨어, 알고리즘]
 tags: [Binary Search, Merge Sort, Quick Sort]
 math: true
