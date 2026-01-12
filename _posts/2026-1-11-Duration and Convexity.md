@@ -4,7 +4,7 @@ date: 2026-1-11 10:00:00 +0900
 categories: [금융, Fixed Income Securities - Veronesi]
 tags: [Veronesi]
 math: true
-description: 
+description: Vernoesi 2-4장
 ---
 
 ## Discount Factors
@@ -72,7 +72,7 @@ $$d = \frac{100 - P_{bill}(t, T)}{100} \times \frac{360}{n}$$
 
 Coupon이 존재하는 T-Note, T-Bond의 경우 채권이 이자 지급일이 아닌 날 인도될 경우 이에 대한 경과 이자를 고려해주어야 한다.
 
-$$\text{Invoide(Dirty) price = Quoted price + Accrued interest}$$
+$$\text{Invoice(Dirty) price = Quoted price + Accrued interest}$$
 
 이때, 경과 이자는 이자율 * 이자지급일 이후 보유 기간으로 계산한다.
 
