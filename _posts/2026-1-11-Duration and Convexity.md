@@ -13,7 +13,7 @@ description: Vernoesi 2-4장
 
 공정한 비교를 위해서 같은 시점에서 가치를 비교하는 것이 중요한데 이를 위해서 Discount Factor라는 개념을 도입했으며 이는 미래의 $1가 현재 얼마의 가치를 지니고 있는지를 나타내준다.
 
-**표기 방법**: T시점의 $1가 t 시점의 얼마인지 나타낼 때 $Z(t,T)$로 표기한다.
+**표기 방법**: T시점의 \$1가 t 시점의 얼마인지 나타낼 때 $Z(t,T)$로 표기한다.
 
 **Fact 2.1** $T_1 < T_2$라고 할때 $Z(t,T_1) \ge Z(t, T_2)$
 
@@ -124,7 +124,7 @@ $$D_W=\sum_{i=1}^{n}w_iD_i$$
 
 6개월 동안 차입 이자를 repo rate으로 고정한다고 생각해보자. 그렇다면 FRN의 경우 6개월 뒤가 이자 변경일이라고 했을 때 채권 가격이 par로 돌아오므로 채권 가격에 있어서 손해를 보지 않고 금리를 지불하고 돈을 빌린 것과 같은 효과를 낼 수 있다.
 
-### VAR & ES
+## VAR & ES
 
 VAR은 Value-at-Risk의 약자로 T 시점까지 $1-\alpha$%의 확률로 내가 잃을 수 있는 최대 금액이 얼마인지 나타내는 값이다.
 
@@ -146,11 +146,11 @@ $$\text{Expected shortfall} = E[L_T|L_T>VaR]$$
 
  VaR을 기준으로 그것보다 더 크게 손해를 볼 것까지 포함하여 계산하기 위하여 기댓값을 취한 값이다.
 
- ### Cash flow Matching and Immunization
+ ## Cash flow Matching and Immunization
 
  **Cash flow Matching**은 금융기관이 현금흐름에 해당하는 증권을 모두 찾아서 매칭시키는 방법이다. 하지만 **Immunization**의 경우 같은 현재 가치와 duration이 일치하는 portfolio를 찾아 구매하는 방식으로 이를 해결한다. 이때, Immunization이 유동성, 거래수수료 등의 장점이 있어 더욱 선호된다.
 
- ### Asset-Liability management
+ ## Asset-Liability management
 
  보험사와 같은 회사의 경우 부채의 만기가 길어 duration이 상대적으로 높게 측정되는데 그에 비해 현실에서 유동적으로 거래되는 자산은 duration이 짧다. 이런 duration mismatch의 경우 금리 하락 시 지불해야하는 부채가 보유한 자산의 양 대비 매우 높게 측정되는 문제가 발생한다.
 
