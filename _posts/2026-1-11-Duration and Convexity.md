@@ -13,7 +13,7 @@ description: Vernoesi 2-4장
 
 공정한 비교를 위해서 같은 시점에서 가치를 비교하는 것이 중요한데 이를 위해서 Discount Factor라는 개념을 도입했으며 이는 미래의 $1가 현재 얼마의 가치를 지니고 있는지를 나타내준다.
 
-**표기 방법**: T시점의 $\$$1가 t 시점의 얼마인지 나타낼 때 $Z(t,T)$로 표기한다.
+**표기 방법**: T시점의 1 dollar가 t 시점의 얼마인지 나타낼 때 $Z(t,T)$로 표기한다.
 
 **Fact 2.1** $T_1 < T_2$라고 할때 $Z(t,T_1) \ge Z(t, T_2)$
 
@@ -42,11 +42,11 @@ Coupon Bond의 경우 가격을 구하기 위해서는 각 시점에서의 현�
 
 즉, 가격과 coupon 및 원금의 합산은 같아야하지만 유동성 부족과 같은 문제가 발생할 경우 arbitrage 기회가 발생할 수 있다.
 
-## Bootstrap
+### Bootstrap
 
 Bootstrap은 Discount factor를 단기부터 순차적으로 장기까지 Discount factor를 coupon bond를 이용하여 구하는 방법이다. zero-coupon bond의 경우 그대로 Discount factor로 변환 가능하지만 coupon bond의 경우 각 채권의 가격 공식을 사용하여 Discount factor를 역산할 수 있다는 원리를 사용해 구한다.
 
-## Yield to Maturity
+### Yield to Maturity
 
 Coupon bond를 각 Discount factor로 나누어 price를 구할 수 있는데 Bond의 가격은 만기에 따라 천차만별이다. 유일한 값인 YTM을 사용하여 만기가 다른 bond를 비교할 수 있다. 
 
@@ -110,7 +110,7 @@ $$D_W=\sum_{i=1}^{n}w_iD_i$$
 
 2. 표면 금리가 높다면 현재 시점에서 가까운 현금흐름은 이자율의 변동에 영향을 장기 현금흐름에 비해 덜 받는다.
 
-## Duration의 종류들
+### Duration의 종류들
 
 **Modified Duration**
 
@@ -144,15 +144,15 @@ VaR은 좋은 risk를 추정하기 좋은 방법일 수 있지만 **접근법에
 
 $$\text{Expected shortfall} = E[L_T|L_T>VaR]$$
 
- VaR을 기준으로 그것보다 더 크게 손해를 볼 것까지 포함하여 계산하기 위하여 기댓값을 취한 값이다.
+VaR을 기준으로 그것보다 더 크게 손해를 볼 것까지 포함하여 계산하기 위하여 기댓값을 취한 값이다.
 
- ## Cash flow Matching and Immunization
+## Cash flow Matching and Immunization
 
- **Cash flow Matching**은 금융기관이 현금흐름에 해당하는 증권을 모두 찾아서 매칭시키는 방법이다. 하지만 **Immunization**의 경우 같은 현재 가치와 duration이 일치하는 portfolio를 찾아 구매하는 방식으로 이를 해결한다. 이때, Immunization이 유동성, 거래수수료 등의 장점이 있어 더욱 선호된다.
+**Cash flow Matching**은 금융기관이 현금흐름에 해당하는 증권을 모두 찾아서 매칭시키는 방법이다. 하지만 **Immunization**의 경우 같은 현재 가치와 duration이 일치하는 portfolio를 찾아 구매하는 방식으로 이를 해결한다. 이때, Immunization이 유동성, 거래수수료 등의 장점이 있어 더욱 선호된다.
 
- ## Asset-Liability management
+## Asset-Liability management
 
- 보험사와 같은 회사의 경우 부채의 만기가 길어 duration이 상대적으로 높게 측정되는데 그에 비해 현실에서 유동적으로 거래되는 자산은 duration이 짧다. 이런 duration mismatch의 경우 금리 하락 시 지불해야하는 부채가 보유한 자산의 양 대비 매우 높게 측정되는 문제가 발생한다.
+보험사와 같은 회사의 경우 부채의 만기가 길어 duration이 상대적으로 높게 측정되는데 그에 비해 현실에서 유동적으로 거래되는 자산은 duration이 짧다. 이런 duration mismatch의 경우 금리 하락 시 지불해야하는 부채가 보유한 자산의 양 대비 매우 높게 측정되는 문제가 발생한다.
 
- 위의 문제를 해결하기 위해 duration matching을 이용한다. Duration matching은 금리의 level 변화와 관계 없이 평가 손익을 안정적으로 관리하는데 큰 도움이 된다.
+위의 문제를 해결하기 위해 duration matching을 이용한다. Duration matching은 금리의 level 변화와 관계 없이 평가 손익을 안정적으로 관리하는데 큰 도움이 된다.
 
